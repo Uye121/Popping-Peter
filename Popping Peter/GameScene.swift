@@ -90,39 +90,44 @@ class GameScene: SKScene {
         
         resumeButton.selectedHandler = {
             state = .Playing
+            self.scene!.view!.paused = false
             
-            self.resumeButton.zPosition = -5
+            self.resumeButton.zPosition = -10
             
         }
         
         background.position = CGPointMake(284 , 160)
         
-        print(background.position)
+//        print(background.position)
     }
     
     override func update(currentTime: CFTimeInterval) {
         
+        if state == .Pause {
+            scene!.view!.paused = true
+        }
         
-        
-        /* Limits the amount of balloons drifting into the scene */
+        if state == .Playing {
 
+        /* Limits the amount of balloons drifting into the scene */
             if time % 9 == 0 {
                 balloonInterval()
             }
-
-        
-        
-        currentNumberOfBalloons = Int(arc4random() % 15)
-        //createBalloons()
-        
-        scoreLabel.text = String(highscore)
-        
-        health -= 0.002
-        
-        /* Check whether player runs out of health */
-        if health < 0 { gameOver() }
-        
-        time += 1
+            
+            
+            
+            currentNumberOfBalloons = Int(arc4random() % 15)
+            //createBalloons()
+            
+            scoreLabel.text = String(highscore)
+            
+            health -= 0.002
+            
+            /* Check whether player runs out of health */
+            if health < 0 { gameOver() }
+            
+            time += 1
+        }
         
     }
     
@@ -143,11 +148,8 @@ class GameScene: SKScene {
         yCord = Int(arc4random() % 229) + 41
         randomBalloon = 16000 //Int(arc4random() % 16000)
         
-        if state != .Pause {
-            balloon.runAction(SKAction.moveBy(CGVector(dx: -700, dy: 0), duration: 3))
-        } else {
-            scene!.view!.paused = true
-        }
+        balloon.runAction(SKAction.moveBy(CGVector(dx: -700, dy: 0), duration: 3 ))
+        
         
     }
     
