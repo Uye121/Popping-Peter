@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070B09B11D2C703F00DB9738 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B09B01D2C703F00DB9738 /* AppDelegate.swift */; };
+		070B09B51D2C703F00DB9738 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B09B41D2C703F00DB9738 /* GameScene.swift */; };
+		070B09B71D2C703F00DB9738 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B09B61D2C703F00DB9738 /* GameViewController.swift */; };
+		070B09BA1D2C703F00DB9738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070B09B81D2C703F00DB9738 /* Main.storyboard */; };
+		070B09BC1D2C703F00DB9738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070B09BB1D2C703F00DB9738 /* Assets.xcassets */; };
+		070B09BF1D2C703F00DB9738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070B09BD1D2C703F00DB9738 /* LaunchScreen.storyboard */; };
+		070B09CA1D2C703F00DB9738 /* Popping_PeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B09C91D2C703F00DB9738 /* Popping_PeterTests.swift */; };
+		070B09D51D2C703F00DB9738 /* Popping_PeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B09D41D2C703F00DB9738 /* Popping_PeterUITests.swift */; };
+		070B09E51D2C726200DB9738 /* balloon.sks in Resources */ = {isa = PBXBuildFile; fileRef = 070B09E41D2C726200DB9738 /* balloon.sks */; };
+		075B70E91D2D9D9E00F0DE15 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 075B70E81D2D9D9E00F0DE15 /* GameScene.sks */; };
+		075B70ED1D2DB48400F0DE15 /* balloon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075B70EC1D2DB48400F0DE15 /* balloon.swift */; };
+		075F4F221D2C7D47006BE1DC /* MSReferenceNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F4F211D2C7D47006BE1DC /* MSReferenceNode.swift */; };
+		075F4F241D2CD3D7006BE1DC /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F4F231D2CD3D7006BE1DC /* MSButtonNode.swift */; };
+		07A753611D2E051D00CBA8C1 /* popping.sks in Resources */ = {isa = PBXBuildFile; fileRef = 07A753601D2E051D00CBA8C1 /* popping.sks */; };
+		2813FD6E1D2E38ED00777469 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2813FD6D1D2E38ED00777469 /* GameOverScene.sks */; };
+		2813FD701D2E39F500777469 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813FD6F1D2E39F500777469 /* GameOverScene.swift */; };
+		2827E23B1D3048CD005EB31A /* sfx_balloonPop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2827E23A1D3048CD005EB31A /* sfx_balloonPop.mp3 */; };
+		289DCDFD1D2E4DF500FDD67B /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 289DCDFC1D2E4DF500FDD67B /* StartScene.sks */; };
+		289DCDFF1D2E4E1600FDD67B /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289DCDFE1D2E4E1600FDD67B /* StartScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		070B09C61D2C703F00DB9738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 070B09A51D2C703F00DB9738 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 070B09AC1D2C703F00DB9738;
+			remoteInfo = "Popping Peter";
+		};
+		070B09D11D2C703F00DB9738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 070B09A51D2C703F00DB9738 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 070B09AC1D2C703F00DB9738;
+			remoteInfo = "Popping Peter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070B09AD1D2C703F00DB9738 /* Popping Peter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Popping Peter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		070B09B01D2C703F00DB9738 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		070B09B41D2C703F00DB9738 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		070B09B61D2C703F00DB9738 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		070B09B91D2C703F00DB9738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		070B09BB1D2C703F00DB9738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		070B09BE1D2C703F00DB9738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		070B09C01D2C703F00DB9738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070B09C51D2C703F00DB9738 /* Popping PeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Popping PeterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		070B09C91D2C703F00DB9738 /* Popping_PeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popping_PeterTests.swift; sourceTree = "<group>"; };
+		070B09CB1D2C703F00DB9738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070B09D01D2C703F00DB9738 /* Popping PeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Popping PeterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		070B09D41D2C703F00DB9738 /* Popping_PeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popping_PeterUITests.swift; sourceTree = "<group>"; };
+		070B09D61D2C703F00DB9738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070B09E41D2C726200DB9738 /* balloon.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = balloon.sks; sourceTree = "<group>"; };
+		075B70E81D2D9D9E00F0DE15 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		075B70EC1D2DB48400F0DE15 /* balloon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = balloon.swift; path = ../balloon.swift; sourceTree = "<group>"; };
+		075F4F211D2C7D47006BE1DC /* MSReferenceNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSReferenceNode.swift; sourceTree = "<group>"; };
+		075F4F231D2CD3D7006BE1DC /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		07A753601D2E051D00CBA8C1 /* popping.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = popping.sks; sourceTree = "<group>"; };
+		2813FD6D1D2E38ED00777469 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		2813FD6F1D2E39F500777469 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		2827E23A1D3048CD005EB31A /* sfx_balloonPop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfx_balloonPop.mp3; sourceTree = "<group>"; };
+		289DCDFC1D2E4DF500FDD67B /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
+		289DCDFE1D2E4E1600FDD67B /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		070B09AA1D2C703F00DB9738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070B09C21D2C703F00DB9738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070B09CD1D2C703F00DB9738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070B09A41D2C703F00DB9738 = {
+			isa = PBXGroup;
+			children = (
+				070B09AF1D2C703F00DB9738 /* Popping Peter */,
+				070B09C81D2C703F00DB9738 /* Popping PeterTests */,
+				070B09D31D2C703F00DB9738 /* Popping PeterUITests */,
+				070B09AE1D2C703F00DB9738 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		070B09AE1D2C703F00DB9738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				070B09AD1D2C703F00DB9738 /* Popping Peter.app */,
+				070B09C51D2C703F00DB9738 /* Popping PeterTests.xctest */,
+				070B09D01D2C703F00DB9738 /* Popping PeterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		070B09AF1D2C703F00DB9738 /* Popping Peter */ = {
+			isa = PBXGroup;
+			children = (
+				075F4F211D2C7D47006BE1DC /* MSReferenceNode.swift */,
+				070B09B01D2C703F00DB9738 /* AppDelegate.swift */,
+				070B09B41D2C703F00DB9738 /* GameScene.swift */,
+				075B70E81D2D9D9E00F0DE15 /* GameScene.sks */,
+				289DCDFE1D2E4E1600FDD67B /* StartScene.swift */,
+				289DCDFC1D2E4DF500FDD67B /* StartScene.sks */,
+				075B70EC1D2DB48400F0DE15 /* balloon.swift */,
+				070B09E41D2C726200DB9738 /* balloon.sks */,
+				075F4F231D2CD3D7006BE1DC /* MSButtonNode.swift */,
+				07A753601D2E051D00CBA8C1 /* popping.sks */,
+				070B09B61D2C703F00DB9738 /* GameViewController.swift */,
+				2813FD6D1D2E38ED00777469 /* GameOverScene.sks */,
+				2813FD6F1D2E39F500777469 /* GameOverScene.swift */,
+				070B09B81D2C703F00DB9738 /* Main.storyboard */,
+				070B09BB1D2C703F00DB9738 /* Assets.xcassets */,
+				2827E23A1D3048CD005EB31A /* sfx_balloonPop.mp3 */,
+				070B09BD1D2C703F00DB9738 /* LaunchScreen.storyboard */,
+				070B09C01D2C703F00DB9738 /* Info.plist */,
+			);
+			path = "Popping Peter";
+			sourceTree = "<group>";
+		};
+		070B09C81D2C703F00DB9738 /* Popping PeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				070B09C91D2C703F00DB9738 /* Popping_PeterTests.swift */,
+				070B09CB1D2C703F00DB9738 /* Info.plist */,
+			);
+			path = "Popping PeterTests";
+			sourceTree = "<group>";
+		};
+		070B09D31D2C703F00DB9738 /* Popping PeterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				070B09D41D2C703F00DB9738 /* Popping_PeterUITests.swift */,
+				070B09D61D2C703F00DB9738 /* Info.plist */,
+			);
+			path = "Popping PeterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		070B09AC1D2C703F00DB9738 /* Popping Peter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070B09D91D2C703F00DB9738 /* Build configuration list for PBXNativeTarget "Popping Peter" */;
+			buildPhases = (
+				070B09A91D2C703F00DB9738 /* Sources */,
+				070B09AA1D2C703F00DB9738 /* Frameworks */,
+				070B09AB1D2C703F00DB9738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Popping Peter";
+			productName = "Popping Peter";
+			productReference = 070B09AD1D2C703F00DB9738 /* Popping Peter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		070B09C41D2C703F00DB9738 /* Popping PeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070B09DC1D2C703F00DB9738 /* Build configuration list for PBXNativeTarget "Popping PeterTests" */;
+			buildPhases = (
+				070B09C11D2C703F00DB9738 /* Sources */,
+				070B09C21D2C703F00DB9738 /* Frameworks */,
+				070B09C31D2C703F00DB9738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				070B09C71D2C703F00DB9738 /* PBXTargetDependency */,
+			);
+			name = "Popping PeterTests";
+			productName = "Popping PeterTests";
+			productReference = 070B09C51D2C703F00DB9738 /* Popping PeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		070B09CF1D2C703F00DB9738 /* Popping PeterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070B09DF1D2C703F00DB9738 /* Build configuration list for PBXNativeTarget "Popping PeterUITests" */;
+			buildPhases = (
+				070B09CC1D2C703F00DB9738 /* Sources */,
+				070B09CD1D2C703F00DB9738 /* Frameworks */,
+				070B09CE1D2C703F00DB9738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				070B09D21D2C703F00DB9738 /* PBXTargetDependency */,
+			);
+			name = "Popping PeterUITests";
+			productName = "Popping PeterUITests";
+			productReference = 070B09D01D2C703F00DB9738 /* Popping PeterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		070B09A51D2C703F00DB9738 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "TestingDummies@_@";
+				TargetAttributes = {
+					070B09AC1D2C703F00DB9738 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					070B09C41D2C703F00DB9738 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 070B09AC1D2C703F00DB9738;
+					};
+					070B09CF1D2C703F00DB9738 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 070B09AC1D2C703F00DB9738;
+					};
+				};
+			};
+			buildConfigurationList = 070B09A81D2C703F00DB9738 /* Build configuration list for PBXProject "Popping Peter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 070B09A41D2C703F00DB9738;
+			productRefGroup = 070B09AE1D2C703F00DB9738 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				070B09AC1D2C703F00DB9738 /* Popping Peter */,
+				070B09C41D2C703F00DB9738 /* Popping PeterTests */,
+				070B09CF1D2C703F00DB9738 /* Popping PeterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		070B09AB1D2C703F00DB9738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289DCDFD1D2E4DF500FDD67B /* StartScene.sks in Resources */,
+				070B09BF1D2C703F00DB9738 /* LaunchScreen.storyboard in Resources */,
+				07A753611D2E051D00CBA8C1 /* popping.sks in Resources */,
+				070B09E51D2C726200DB9738 /* balloon.sks in Resources */,
+				2813FD6E1D2E38ED00777469 /* GameOverScene.sks in Resources */,
+				070B09BC1D2C703F00DB9738 /* Assets.xcassets in Resources */,
+				2827E23B1D3048CD005EB31A /* sfx_balloonPop.mp3 in Resources */,
+				075B70E91D2D9D9E00F0DE15 /* GameScene.sks in Resources */,
+				070B09BA1D2C703F00DB9738 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070B09C31D2C703F00DB9738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070B09CE1D2C703F00DB9738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		070B09A91D2C703F00DB9738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070B09B51D2C703F00DB9738 /* GameScene.swift in Sources */,
+				075F4F221D2C7D47006BE1DC /* MSReferenceNode.swift in Sources */,
+				2813FD701D2E39F500777469 /* GameOverScene.swift in Sources */,
+				070B09B71D2C703F00DB9738 /* GameViewController.swift in Sources */,
+				075B70ED1D2DB48400F0DE15 /* balloon.swift in Sources */,
+				070B09B11D2C703F00DB9738 /* AppDelegate.swift in Sources */,
+				075F4F241D2CD3D7006BE1DC /* MSButtonNode.swift in Sources */,
+				289DCDFF1D2E4E1600FDD67B /* StartScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070B09C11D2C703F00DB9738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070B09CA1D2C703F00DB9738 /* Popping_PeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070B09CC1D2C703F00DB9738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070B09D51D2C703F00DB9738 /* Popping_PeterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		070B09C71D2C703F00DB9738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 070B09AC1D2C703F00DB9738 /* Popping Peter */;
+			targetProxy = 070B09C61D2C703F00DB9738 /* PBXContainerItemProxy */;
+		};
+		070B09D21D2C703F00DB9738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 070B09AC1D2C703F00DB9738 /* Popping Peter */;
+			targetProxy = 070B09D11D2C703F00DB9738 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		070B09B81D2C703F00DB9738 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				070B09B91D2C703F00DB9738 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		070B09BD1D2C703F00DB9738 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				070B09BE1D2C703F00DB9738 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		070B09D71D2C703F00DB9738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		070B09D81D2C703F00DB9738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		070B09DA1D2C703F00DB9738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Popping Peter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Popping-Peter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		070B09DB1D2C703F00DB9738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Popping Peter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Popping-Peter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		070B09DD1D2C703F00DB9738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Popping PeterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Popping-PeterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Popping Peter.app/Popping Peter";
+			};
+			name = Debug;
+		};
+		070B09DE1D2C703F00DB9738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Popping PeterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Popping-PeterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Popping Peter.app/Popping Peter";
+			};
+			name = Release;
+		};
+		070B09E01D2C703F00DB9738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Popping PeterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Popping-PeterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Popping Peter";
+			};
+			name = Debug;
+		};
+		070B09E11D2C703F00DB9738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Popping PeterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Popping-PeterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Popping Peter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		070B09A81D2C703F00DB9738 /* Build configuration list for PBXProject "Popping Peter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070B09D71D2C703F00DB9738 /* Debug */,
+				070B09D81D2C703F00DB9738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		070B09D91D2C703F00DB9738 /* Build configuration list for PBXNativeTarget "Popping Peter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070B09DA1D2C703F00DB9738 /* Debug */,
+				070B09DB1D2C703F00DB9738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		070B09DC1D2C703F00DB9738 /* Build configuration list for PBXNativeTarget "Popping PeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070B09DD1D2C703F00DB9738 /* Debug */,
+				070B09DE1D2C703F00DB9738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		070B09DF1D2C703F00DB9738 /* Build configuration list for PBXNativeTarget "Popping PeterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070B09E01D2C703F00DB9738 /* Debug */,
+				070B09E11D2C703F00DB9738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 070B09A51D2C703F00DB9738 /* Project object */;
+}
