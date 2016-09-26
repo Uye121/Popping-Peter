@@ -39,8 +39,6 @@ class GameScene: SKScene {
         }
     }
     
-    
-    
     /* scaled health bar to 150% because health bar has been scaled up */
     var health: CGFloat = 1.5 {
         didSet {
@@ -96,9 +94,8 @@ class GameScene: SKScene {
             
         }
         
-        background.position = CGPointMake(284 , 160)
+//        background.position = CGPointMake(284 , 160)
         
-//        print(background.position)
     }
     
     override func update(currentTime: CFTimeInterval) {
@@ -112,12 +109,9 @@ class GameScene: SKScene {
         /* Limits the amount of balloons drifting into the scene */
             if time % 9 == 0 {
                 balloonInterval()
-            }
-            
-            
+            }     
             
             currentNumberOfBalloons = Int(arc4random() % 15)
-            //createBalloons()
             
             scoreLabel.text = String(highscore)
             
